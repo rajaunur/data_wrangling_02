@@ -1,0 +1,23 @@
+Nama Kolom,Tipe Data (dtype),Jumlah Missing,Persen Missing (%),Jumlah Nilai Unik,Sampel Nilai
+order_id,object,0,0.0,250,ORD-26090128 | ORD-26090118 | ORD-26090214
+customer_id,object,0,0.0,63,C0036 | C0022 | C0035
+order_date,datetime64[ns],0,0.0,250,2026-09-01 11:53:09 | 2026-09-01 12:11:13 | 2026-09-01 16:46:17
+store_id,object,0,0.0,6,ST-BDG01 | ST-SBY01 | ST-ONLINE
+channel,object,0,0.0,2,Offline | Online
+payment_method,object,0,0.0,6,Kartu Kredit | Debit | QRIS
+coupon_code,object,160,64.0,3,PAYDAY50K | AKHIRBULAN25 | GAJIAN10
+item_count,int64,0,0.0,8,7 | 8 | 1
+subtotal,int64,0,0.0,244,293000 | 462500 | 1113000
+discount_amount,int64,0,0.0,17,0 | 50000 | 100000
+total_amount,int64,0,0.0,244,293000 | 462500 | 1113000
+customer_name,object,47,18.8,49,Budi Kusuma | Andi Purnama | Utami Nugroho
+membership_tier,object,47,18.8,4,Bronze | Gold | Platinum
+city,object,47,18.8,9,Bandung | Denpasar | Jakarta
+tracking_number,object,150,60.0,100,JNE7590302909 | JNE6448324230 | JT1207916194
+delivery_status,object,150,60.0,4,DELIVERED | IN_TRANSIT | RETURNED
+courier_name,object,150,60.0,4,JNE | J&T Express | SiCepat
+courier_service,object,150,60.0,4,REG | YES | EZ
+destination_city,object,150,60.0,10,Jakarta | Denpasar | Malang
+destination_province,object,150,60.0,9,DKI Jakarta | Bali | Jawa Timur
+timeline_shipped_at,datetime64[ns],159,63.6,91,2026-09-03 02:09:36 | 2026-09-02 18:30:02 | 2026-09-03 08:36:35
+timeline_delivered_at,datetime64[ns],183,73.2,67,2026-09-04 02:09:36 | 2026-09-05 08:36:35 | 2026-09-04 13:43:45
